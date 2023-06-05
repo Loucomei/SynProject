@@ -1,0 +1,56 @@
+body, main {
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    background-color: rgb(255, 216, 138);
+
+    /*overflow: hidden; /*disabling these will allow free scrolling*/
+    /*position: fixed;  /*but it may break the nav bar*/
+}
+
+h1{
+    text-align: center;
+    align-self: center;
+}
+
+nav{
+    margin: auto;
+    width: fit-content;
+}
+
+#courses-nav{
+    background-color: blue;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    width: fit-content;
+    display: inline-block;
+}
+#immigration-nav{
+    background-color: green;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    width: fit-content;
+    display: inline-block;
+}
+#colleges-nav{
+    background-color: yellow;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    width: fit-content;
+    display: inline-block;
+}
+#home{
+    font-size: smaller;
+}
+
+.university{
+    margin: auto;
+    width: 50%;
+    border: 2px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-radius: 10px;
+}
+.university_thumbnail{
+    
+}
