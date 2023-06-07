@@ -1,0 +1,47 @@
+head, body{
+    background-color: #F3D18C;
+}
+
+.schoolPic {
+    width: 20%;
+    height: 20%;
+}
+
+header{
+    text-align: center;
+}
+
+main{
+    padding: 20px 0;
+    margin: 10px auto auto auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article{
+    display: inline-block;
+    width: 98%;
+    background-color: #E9C06D;
+    padding: 24px 11px;
+    margin: auto auto 20px 5px;
+    text-align: center;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+img{
+    float: left;
+}
+
+p, h2{
+    text-align: center;
+    margin: 10px auto;
+}
+
+p{
+    margin: 10px auto;
+}
+
+#btm{
+    text-align: left;
+}
