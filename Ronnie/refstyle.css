@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #B7C5A3;
+    color: black;
+    font: "Fira Sans", serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+header {
+    height: 100px;
+    font-size:18px;
+}
+header a{
+    margin-left: 40px;
+    text-align: left;
+    line-height: 350%;
+
+}
+
+header h1{
+    padding-top: 30px;
+    text-align: center;
+}
+#navul{
+    list-style-type: none;
+    display:flex;
+    width:100w;
+    justify-content: space-between;
+}
+
+nav {
+    text-align: center;
+    padding: 50px;
+    margin-top: 100px;
+    color: black;
+    font-size: 25px;
+}
+nav a{
+    border: 2px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    padding: 14px;
+}
+
+a:hover {
+    color: blue;
+}
+
+.nav {
+    display: inline-block;
+    padding: 24px;
+}
+
+main {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 16px;
+    background: #DFECCB;
+    border-radius: 40px;
+}
+
+
+img {
+    height:1000px;
+    width: 500px;
+    height: auto;
+    border-radius: 40px;
+    float:left;
+    margin-bottom: 10px;
+}
+
+.kids{
+    display:flex;
+    gap: 20px;
+}
+
+.text{
+    text-align: center;
+}
+
+#finance{
+    text-align: center;
+    margin-top: 100px;
+}
+#fanul{
+    list-style-type: none;
+    display:flex;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+    gap: 20px;
+    justify-content:  center;
+}
+
+#uni h2{
+    margin-top: 20px;
+    font-size: 20px;;
+}
+#uni li{
+    list-style-type: none;
+    text-align: center;
+    font-size: 20px;
+}
+#uni li:hover{
+    color: blue;
+}
+
+footer{
+    text-align: center;
+    color: black;
+}
+
