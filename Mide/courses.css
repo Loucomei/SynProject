@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    background-color:rgba(172, 175, 185, 1) ;
   }
   
   .container {
@@ -23,7 +23,7 @@ body {
   }
   
   .course {
-    background-color: rgb(132, 132, 249);
+    background-color: rgba(158, 161, 172, 1);
     border-radius: 6px;
     padding: 20px;
   }
