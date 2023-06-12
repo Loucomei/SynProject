@@ -4,11 +4,21 @@
 }
 
 body {
-    background-color: #B7C5A3;
+    background-color: rgba(165, 177, 147, 1);
     color: black;
     font: "Fira Sans", serif;
     font-size: 16px;
     line-height: 1.5;
+}
+
+#menu{
+    
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
 }
 
 header {
@@ -63,7 +73,7 @@ main {
     margin-left: 2%;
     margin-right: 2%;
     padding: 16px;
-    background: #DFECCB;
+    background: rgba(145, 159, 124, 1);
     border-radius: 40px;
 }
 
