@@ -1,0 +1,115 @@
+body, main {
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    background-color: rgb(255, 216, 138);
+
+    /*overflow: hidden; /*disabling these will allow free scrolling*/
+    /*position: fixed;  /*but it may break the nav bar*/
+}
+
+h1{
+    text-align: center;
+    align-self: center;
+}
+
+nav{
+    margin: auto;
+    width: fit-content;
+}
+
+footer{
+    font-size: x-small;
+    text-align: center;
+}
+
+#courses-nav{
+    color: black;
+    text-decoration: none;
+    background-color: blue;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    width: fit-content;
+    display: inline-block;
+}
+#immigration-nav{
+    color: black;
+    text-decoration: none;
+    background-color: green;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    width: fit-content;
+    display: inline-block;
+}
+#colleges-nav{
+    color: black;
+    text-decoration: none;
+    background-color: yellow;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    width: fit-content;
+    display: inline-block;
+}
+#home{
+    display: inline-block;
+    font-size: medium;
+    margin-top: 10px;
+    margin-left: 4vw;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+
+@keyframes university{
+    from{-webkit-transform: scale(1.2);margin-top: 30px;margin-bottom: 30px;}
+    to{-webkit-transform: scale(1);margin-top: 10px;margin-bottom: 10px;}
+}
+.university{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 2px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-radius: 10px;
+    justify-content: left;
+    flex-wrap: wrap;
+    animation-name: university;
+    animation-duration: 1s;
+}
+.university_thumbnail{
+    margin: 0%;
+    border-radius: 10px;
+    width: 30%;
+    display: flex;
+}
+.university_name{
+    margin: 0%;
+    margin-top: 6%;
+    font-size: 3.4vw;
+    width: 60%;
+    display: flex;
+}
+.university_description{
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.university_details{
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+@keyframes university_on_hover{
+    from{-webkit-transform: scale(1);margin-top: 10px;margin-bottom: 10px;}
+    to{-webkit-transform: scale(1.2);margin-top: 30px;margin-bottom: 30px;}
+}
+.university:hover{
+    -webkit-transform: scale(1.2);
+    margin-top: 30px;margin-bottom: 30px;
+    animation-name: university_on_hover;
+    animation-duration: 1s;
+}
