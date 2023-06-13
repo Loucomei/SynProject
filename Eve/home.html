@@ -78,13 +78,34 @@
 
     
         <p id="aboutThisProject"></p>
-    
-        <img src="/Ronnie/img/kids.avif" alt="image" id="home_image">
+
+        <div id="home_images">
+        <!-- <img src="/Ronnie/img/kids.avif" alt="image" id="home_image">
+        <img src="/Ronnie/img/col.jpg" alt="image" id="home_image">
+        <img src="/Ronnie/img/people.jpg" alt="image" id="home_image"> -->
+        </div>
+
+        <p id="descriptionOfProject1"></p>
+        <p id="descriptionOfProject2"></p>
+      
+        <p id="contact_us"></p> 
+        <p id="contact_text"></p>
+        <div id="contact_form">
+         
+
+        <form id="contactForm" action="send_email.php" method="post">
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" required><br><br>
         
-          <p id="descriptionOfProject1"></p>
-          <p id="descriptionOfProject2"></p>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required><br><br>
         
-  
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="4" required></textarea><br><br>
+        
+          <input type="submit" value="Submit">
+        </form>
+        </div>
      </main>
 
     <footer>

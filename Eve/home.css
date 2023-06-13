@@ -50,7 +50,7 @@ body{
     color: #da1a0c;
 }
 
-#homePage_intro, #aboutThisProject{
+#homePage_intro, #aboutThisProject, #contact_us{
     color: black;
     text-align: center;
     padding: 50px;
@@ -58,7 +58,7 @@ body{
     text-transform: uppercase;
 }
 
-#homePage_text, #descriptionOfProject1, #descriptionOfProject2{
+#homePage_text, #descriptionOfProject1, #descriptionOfProject2, #contact_text{
     color: black;
     text-align: center;
     font-size: 35px;
@@ -76,19 +76,23 @@ body{
 }
 
 #home_image{
-    width: 50%;
+    width: 33.33%;
     height: auto;
-    border-radius: 30px;
     justify-content: center;
    display:block;
    margin: auto;
+}
+
+#home_images{
+    display: flex;
+    width: 100%;
 }
 
 #nav_cards{
     display: flex;
     flex-wrap: wrap;
     width: 1300px;
-    
+    padding-top: 10px;
     justify-content: center;
     margin: auto;
     display: grid;
@@ -97,6 +101,10 @@ body{
       grid-column-gap: 10px;
       grid-row-gap: 10px;
       overflow: hidden;
+}
+
+.card:hover{
+    outline: 3px solid black;
 }
 
 #card1{
@@ -143,8 +151,58 @@ body{
     display: flex;
 }
 
+#contact_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(239, 226, 186, 1);
+  }
 
-
+  form {
+    width: 400px;
+    padding: 20px;
+    background-color:rgba(239, 226, 186, 1);
+    border-radius: 5px;
+   
+  }
+  
+  label {
+    display: block;
+    font-size: 30px;
+    width: 10%;
+      margin-bottom: 5px;
+      color: black;
+    text-transform: uppercase;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    height: 40%;
+    padding: 10px;
+    
+     border: 1px solid black;
+    border-radius: 20px;
+  }
+  
+  
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: black;
+    width: 40%;
+    margin: auto;
+  }
+  
+  input[type="submit"]:hover {
+    outline: 5px solid #fff;
+  }
 
 #uni, #courses, #colleges, #immigrants{
     font-size:60px;
