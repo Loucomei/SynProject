@@ -16,16 +16,20 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   
+.box:hover {
+  outline: 3px solid white;
+}
+
   .box {
+    background-color: rgba(158, 161, 172, 1);
     width: 400px;
     margin-bottom: 20px;
     padding: 10px;
+    border-radius: 6px;
   }
   
   .course {
-    background-color: rgba(158, 161, 172, 1);
-    border-radius: 6px;
-    padding: 20px;
+    padding: 0px 15px 15px 15px;
   }
   
   .title-container {

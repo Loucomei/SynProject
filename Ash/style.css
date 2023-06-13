@@ -62,26 +62,27 @@ footer{
     color: black;
 }
 
-@keyframes university{
+/* @keyframes university{
     from{-webkit-transform: scale(1.2);margin-top: 30px;margin-bottom: 30px;}
     to{-webkit-transform: scale(1);margin-top: 10px;margin-bottom: 10px;}
-}
+} */
 .university{
     margin-top: 10px;
     margin-bottom: 10px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    border: 2px;
+    width: 70%;
+    /* border: 2px;
     border-style: solid;
-    border-color: aliceblue;
+    border-color: aliceblue; */
     border-radius: 10px;
     justify-content: left;
     flex-wrap: wrap;
     animation-name: university;
     background-color: rgba(232, 175, 158, 1);
     animation-duration: 1s;
+    padding: 20px;
 }
 .university_thumbnail{
     margin: 0%;
@@ -90,29 +91,29 @@ footer{
     display: flex;
 }
 .university_name{
-    margin: 0%;
-    margin-top: 6%;
+    padding: 10px;
     font-size: 3.4vw;
     width: 60%;
     display: flex;
 }
 .university_description{
     display: inline-block;
-    margin-top: 8px;
-    margin-bottom: 8px;
+    padding: 2px;
+    font-size: 30px;
 }
 .university_details{
     display: inline-block;
-    margin-top: 8px;
-    margin-bottom: 8px;
+    padding: 2px;
+    font-size: 30px;
 }
-@keyframes university_on_hover{
+/* @keyframes university_on_hover{
     from{-webkit-transform: scale(1);margin-top: 10px;margin-bottom: 10px;}
     to{-webkit-transform: scale(1.2);margin-top: 30px;margin-bottom: 30px;}
-}
+} */
 .university:hover{
-    -webkit-transform: scale(1.2);
+    outline: 3px solid white;
+    /* -webkit-transform: scale(1.2);
     margin-top: 30px;margin-bottom: 30px;
     animation-name: university_on_hover;
-    animation-duration: 1s;
+    animation-duration: 1s; */
 }
