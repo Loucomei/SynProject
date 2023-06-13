@@ -43,7 +43,15 @@ h1{
     font-size: 300%;
 }
 
-p, h2{
+h2{
+    padding-top: 30px;
+    font-size: 30px;
+    text-align: left;
+    margin: auto;
+    margin-left: 20px;
+}
+
+p{
     text-align: left;
     margin: auto;
     margin-left: 20px;

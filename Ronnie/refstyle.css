@@ -58,7 +58,7 @@ nav a{
     padding: 14px;
 }
 
-a:hover {
+.a:hover {
     outline: 3px solid white;
 }
 
