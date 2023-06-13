@@ -23,20 +23,6 @@ body{
 }
 
 
-#bg_intro2{
-    font-size: 600%;
-    text-transform: uppercase;
-    color: black;
-    opacity: 0.1;
-    
-   z-index: -1;
-   position: absolute;
-   
-   
-   margin-left: 31%;
-
-    
-}
 
 .active{
     color: #F1BF0B;
@@ -64,7 +50,7 @@ body{
     color: #da1a0c;
 }
 
-#homePage_intro{
+#homePage_intro, #aboutThisProject{
     color: black;
     text-align: center;
     padding: 50px;
@@ -72,18 +58,31 @@ body{
     text-transform: uppercase;
 }
 
-#homePage_text {
+#homePage_text, #descriptionOfProject1, #descriptionOfProject2{
     color: black;
     text-align: center;
+    font-size: 35px;
+    width: 70%;
+
+    justify-content: center;
+    margin:  auto;
     padding: 50px;
-    font-size: 25px;
-    width: 60%;
-    margin: auto;
-    margin-bottom: 50px;
-    
 }
 
 
+
+#descriptionOfProject{
+    width: 100%;
+}
+
+#home_image{
+    width: 50%;
+    height: auto;
+    border-radius: 30px;
+    justify-content: center;
+   display:block;
+   margin: auto;
+}
 
 #nav_cards{
     display: flex;
@@ -144,38 +143,8 @@ body{
     display: flex;
 }
 
-/* .image_top{
-    position: absolute;
-    
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    background-color: rgba(0, 0, 0, 0.4);
-    display: flex;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.25s;
-    border-radius:30px;
-} */
 
 
-
-.image_top > *{
-    transform: translate(20px);
-    transition: transform 0.25s;
-}
-
-.image_top:hover{
-    opacity: 1;
-}
-
-.image_top:hover > *{
-    transform: translate(0);
-}
-/* 
-.image_top_blur{
-    backdrop-filter: blur(5px);
-} */
 
 #uni, #courses, #colleges, #immigrants{
     font-size:60px;
@@ -183,16 +152,14 @@ body{
     margin:  auto;
 }
 
-#immigrants:hover{
-    opacity: 0;
-}
 
-#homePage_nav_Toby, #homePage_nav_Eve, #homePage_nav_Sean {
+
+/* #homePage_nav_Toby, #homePage_nav_Eve, #homePage_nav_Sean {
     max-width: 100%;
     max-height: 100%;
     display: block;
     border-radius: 10px;
-}
+} */
 
 a{
     color: unset;
